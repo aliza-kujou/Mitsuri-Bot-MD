@@ -1,3 +1,7 @@
+// PROHIBIDO EDITAR
+// Código creado por Félix OFC https://GitHub.com/mantis-has
+// Nota: Si usaras el codigo ten en cuenta usar o adaptar tu handler.js a este codigo.
+// Se recomienda usar MakiBaileys o otto baileys sililar github:fet6489/MakiBaileys 
 let handler = async (m, { text }) => {
   // Si no se escribió texto (número o mención)
   if (!text || !text.replace(/[^0-9]/g, '')) {
