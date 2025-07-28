@@ -19,6 +19,7 @@ Comandos disponibles
 ┃#inspect [enlace]
 ┃#inspeccionar [enlace]
 ┃#play [Búsqueda]
+┃#fb [Emlace]
 ╰━━━━━━━━━━━━━
 
 ╭━━━ *SUB-BOTS* ━╮
