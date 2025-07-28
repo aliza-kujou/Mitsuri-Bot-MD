@@ -1,0 +1,85 @@
+let handler = async (m, { conn }) => {
+  try {
+    // Determina si es el bot principal u un sub-bot
+    let botType = (conn.user.jid == global.conn.user.jid) ? '(OficialBot)' : '(SubBot)';
+    // Nombre del bot
+    let botname = 'Mitsuri-Bot-MD';
+    // Obtener el nombre del usuario
+    let nombre = await conn.getName(m.sender);
+    // Uptime del bot
+    let _uptime = process.uptime() * 1000;
+    let uptime = clockString(_uptime);
+    // Total de registros
+    let totalreg = Object.keys(global.db.data.users).length;
+    // Mención
+    let taguser = '@' + m.sender.split("@")[0];
+
+    let menu = `
+Hola ${taguser}
+Soy ${botname} ${botType} 
+
+╭━━ *INFO-BOT* ━━╮
+┃Creador: Félix Manuel 
+┃Baileys: MakiBaileys 
+┃Tiempo activo: ${uptime}
+┃Registros: ${totalreg}
+╰━━━━━━━━━━━━━
+
+Comandos disponibles
+
+╭━━━━ *USERS* ━━╮
+┃#catbox [imagen]
+┃#inspect [enlace]
+┃#inspeccionar [enlace]
+╰━━━━━━━━━━━━━
+
+╭━━━ *SUB-BOTS* ━╮
+┃#code 
+┃#qr
+┃#setprimary
+╰━━━━━━━━━━━━━
+
+╭━━━ *OWNER* ━╮
+┃#join
+┃#update
+┃#unir
+╰━━━━━━━━━━━━━
+
+> Powered by Félix
+`.trim();
+
+    await conn.sendMessage(m.chat, {
+      image: { url: 'https://qu.ax/YJWlM.jpg' },
+      caption: menu,
+      contextInfo: {
+        mentionedJid: [m.sender],
+        isForwarded: true,
+        forwardingScore: 999,
+        externalAdReply: {
+          title: botname,
+          body: 'Félix Manuel',
+          thumbnailUrl: 'https://qu.ax/YJWlM.jpg',
+          mediaType: 1,
+          renderLargerThumbnail: false,
+        },
+      }
+    }, { quoted: m });
+
+  } catch (e) {
+    await m.reply(`✘ Ocurrió un error al enviar el menú.\n\n${e}`, m);
+  }
+};
+
+handler.command = ['menu', 'help', 'menú'];
+handler.help = ['menu', 'help', 'menú'];
+handler.tags = ['main'];
+handler.register = true;
+
+function clockString(ms) {
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
+  return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':');
+}
+
+export default handler;
