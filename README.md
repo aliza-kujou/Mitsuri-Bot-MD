@@ -5,7 +5,7 @@
 
 ---
 
-<h1 align="center">🟣 ̸̷᮫໊᷐͢᷍ᰍ MITSURI-BOT-MD</p>
+<h1 align="center">🟣 MITSURI-BOT-MD</p>
 <p>
         <img src= "https://qu.ax/rKYkL.jpg">
     </p>
@@ -14,8 +14,7 @@
 
 ---
 
-## CREADOR
-
-
-        <img src= "https://github.com/mantis-has">
+<h1 align="center">CREADOR</p>
+<p>
+        <img src= "https://GitHub.com/mantis-has">
     </p>
