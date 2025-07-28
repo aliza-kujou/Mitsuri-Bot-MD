@@ -51,18 +51,6 @@ Comandos disponibles
     await conn.sendMessage(m.chat, {
       image: { url: 'https://qu.ax/YJWlM.jpg' },
       caption: menu,
-      contextInfo: {
-        mentionedJid: [m.sender],
-        isForwarded: true,
-        forwardingScore: 999,
-        externalAdReply: {
-          title: botname,
-          body: 'Félix Manuel',
-          thumbnailUrl: 'https://qu.ax/YJWlM.jpg',
-          mediaType: 1,
-          renderLargerThumbnail: false,
-        },
-      }
     }, { quoted: m });
 
   } catch (e) {
