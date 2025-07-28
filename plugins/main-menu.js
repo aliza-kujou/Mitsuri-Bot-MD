@@ -5,11 +5,11 @@ let handler = async (m, { conn }) => {
     let menu = `
 ¡Hola! ${nombre} Soy Mitsuri-Bot-MD
 
-╭━━ *INFO-BOT* ━━╮
-┃Creador: Félix Manuel 
-┃Baileys: MakiBaileys 
-┃Tiempo activo: ${uptime}
-┃Registros: ${totalreg}
+╭━━Developed by Félix 
+┃✨ GitHub:
+┃https://github.com/aliza-kujou/Mitsuri-Bot-MD
+┃✨ Canal OfC:
+┃https://whatsapp.com/channel/0029VbBPHau6WaKuG85fvx3u
 ╰━━━━━━━━━━━━━
 
 Comandos disponibles
