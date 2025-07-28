@@ -34,6 +34,8 @@ Comandos disponibles
 ┃#demote
 ┃#tag
 ┃#hidetag
+┃#infogrupo
+┃#link 
 ╰━━━━━━━━━━━━━
 
 ╭━ *REGISTROS* ━╮
