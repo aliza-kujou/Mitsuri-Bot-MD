@@ -3,18 +3,18 @@
 let handler = async (m, { conn }) => {
   try {
     let menu = `
-¡Hola! Soy Mitsuri-Bot-MD (OficialBot) 
+¡Hola! ${nombre} Soy Mitsuri-Bot-MD
 
 ╭━━ *INFO-BOT* ━━╮
 ┃Creador: Félix Manuel 
 ┃Baileys: MakiBaileys 
-┃Tiempo activo: Activo
-┃Registros: --
+┃Tiempo activo: ${uptime}
+┃Registros: ${totalreg}
 ╰━━━━━━━━━━━━━
 
 Comandos disponibles
 
-╭━━━━ *USERS* ━━╮
+╭━ *HERRAMIENTAS* ━╮
 ┃#catbox [imagen]
 ┃#inspect [enlace]
 ┃#inspeccionar [enlace]
@@ -24,6 +24,29 @@ Comandos disponibles
 ┃#code 
 ┃#qr
 ┃#setprimary
+┃#serbottoken 
+┃#bots
+┃#listjadibot
+╰━━━━━━━━━━━━━
+
+╭━ *GRUPOS* ━╮
+┃#promote
+┃#demote
+┃#tag
+┃#hidetag
+╰━━━━━━━━━━━━━
+
+╭━ *REGISTROS* ━╮
+┃#reg
+┃#unreg 
+┃#perfil
+╰━━━━━━━━━━━━━
+
+╭━ *JUEGOS* ━╮
+┃#acertijo
+┃#acert
+┃#adivinanza
+┃#tekateki
 ╰━━━━━━━━━━━━━
 
 ╭━━━ *OWNER* ━╮
