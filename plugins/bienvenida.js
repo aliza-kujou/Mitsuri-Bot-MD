@@ -14,7 +14,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   let totalMembers = participants.length;
   let date = new Date().toLocaleString("es-ES", { timeZone: "America/Mexico_City" });
 
-  let imagenUrl = 'https://qu.ax/dYhOj.jpg';
+  let imagenUrl = 'https://qu.ax/aFAdU.jpg';
 
   // Frases de bienvenida
   let frasesBienvenida = [
@@ -41,10 +41,12 @@ export async function before(m, { conn, participants, groupMetadata }) {
   if (chat.welcome) {
     if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_ADD) {
       let bienvenida = `
-━━━─────━━━─── BIENVENIDO/A ━━━─────━━━───
+━━━─────━━━───
+  BIENVENIDO/A
+━━━─────━━━───
 ${taguser} se ha unido al grupo: ${groupMetadata.subject}
+
 Miembros: ${totalMembers + 1}
-Soy Mitsuri, el bot de todos en este grupo.
 
 ${fraseRandomBienvenida}
       `.trim();
@@ -61,8 +63,11 @@ ${fraseRandomBienvenida}
       m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_REMOVE
     ) {
       let despedida = `
-━━━─────━━━─── DESPEDIDA ━━━─────━━━───
+━━━─────━━━─── 
+    DESPEDIDA 
+━━━─────━━━───
 ${taguser} ha salido del grupo: ${groupMetadata.subject}
+
 Ahora somos ${totalMembers + 1} miembros.
 
 ${fraseRandomDespedida}
