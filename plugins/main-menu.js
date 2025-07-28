@@ -18,6 +18,7 @@ Comandos disponibles
 ┃#catbox [imagen]
 ┃#inspect [enlace]
 ┃#inspeccionar [enlace]
+┃#play
 ╰━━━━━━━━━━━━━
 
 ╭━━━ *SUB-BOTS* ━╮
