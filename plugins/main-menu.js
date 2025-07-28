@@ -38,6 +38,7 @@ Comandos disponibles
 ┃#hidetag
 ┃#infogrupo
 ┃#link 
+┃#kick
 ╰━━━━━━━━━━━━━
 
 ╭━ *REGISTROS* ━╮
