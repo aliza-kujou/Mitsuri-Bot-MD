@@ -41,6 +41,13 @@ Comandos disponibles
 ┃#kick
 ╰━━━━━━━━━━━━━
 
+╭━ *CONFIGURACIÓN* ━╮
+┃#on <opción>
+┃#off <opción>
+┃#enable <opción>
+┃#disable <opción>
+╰━━━━━━━━━━━━━
+
 ╭━ *REGISTROS* ━╮
 ┃#reg
 ┃#unreg 
