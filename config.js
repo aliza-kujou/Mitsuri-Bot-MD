@@ -47,9 +47,15 @@ global.makiJadibts = true
 
 //*─ׄ─ׅ─ׄ─✰─ׄ─ׅ─ׄ─✰─ׄ─ׅ─ׄ─✰─ׄ─ׅ─ׄ─✰─ׄ─ׅ─ׄ─✰─ׄ─ׅ─ׄ─*
 
-global.packsticker = `─✰─ׄ─ׅ─ׄ─✰─ׄ─✰─ׄ✰─ׄ\nBot: mі𝗍sᥙrі-ᑲ᥆𝗍-mძ\n\nCreador: Félix Manuel\n\nTipo: Público\n\nUsuarios: 10927\n─✰─ׄ─ׅ─ׄ─✰─ׄ─✰─ׄ✰─ׄ\n\n`
+global.packsticker = `┃🐬 Deymoon Club Ofc
+\n    ⤷ https://cyanseven.vercel.app/\n          ┃💠 Info:
+\n             ⤷ cyan-seven.vercel.app
+\n                     ┃💥 Bot: 
+\n                         ┃⤷ Mitsuri 
+\n\n                          ┃Usuario:
+ \n                               ┃⤷ @username\n\n`
 global.packname = `⏤͟͞ू⃪  ̸̷͢Mitsuri 𝐁𝐨𝐭𑁯ᰍ`
-global.author = `𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐬 𝐁𝐲 Félix Manuel`;
+global.author = `Sigue el canal del Club`;
 global.wm = '⏤͟͞ू⃪  ̸̷͢𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 Félix Manuel';
 global.titulowm = '⏤͟͞ू⃪mі𝗍sᥙrі 𝐁𖹭t͟𑁯ᰍ';
 global.igfg = 'Deymoon Club'
