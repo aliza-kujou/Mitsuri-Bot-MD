@@ -53,7 +53,7 @@ global.packsticker = `┃🐬 Deymoon Club Ofc
 \n                     ┃💥 Bot: 
 \n                         ┃⤷ Mitsuri 
 \n\n                          ┃Usuario:
- \n                               ┃⤷ @username\n\n`
+ \n                               ┃⤷ ${nombre}\n\n`
 global.packname = `⏤͟͞ू⃪  ̸̷͢Mitsuri 𝐁𝐨𝐭𑁯ᰍ`
 global.author = `Sigue el canal del Club`;
 global.wm = '⏤͟͞ू⃪  ̸̷͢𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 Félix Manuel';
