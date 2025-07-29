@@ -14,7 +14,6 @@ ${usedPrefix + command} autosticker
 
 OPCIONES PARA MI CREADOR 
 
-${usedPrefix + command} autobio
 ${usedPrefix + command} antispam`
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
