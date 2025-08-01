@@ -1,6 +1,6 @@
 //* Código creado por Félix, no quites créditos *//
 
-let handler = async (m, fake, { conn }) => {
+let handler = async (m, { conn }) => {
   try {
     let menu = `
 ¡Hola! ${nombre} Soy Mitsuri-Bot-MD
