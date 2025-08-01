@@ -1,6 +1,6 @@
 //* Código creado por Félix, no quites créditos *//
 
-let handler = async (m, { conn }) => {
+let handler = async (m, fake, { conn }) => {
   try {
     let menu = `
 ¡Hola! ${nombre} Soy Mitsuri-Bot-MD
@@ -77,7 +77,7 @@ Comandos disponibles
     }, { quoted: m });
 
   } catch (e) {
-    await m.reply(`✘ Ocurrió un error al enviar el menú.\n\n${e}`, m);
+    await m.reply(`✘ Ocurrió un error al enviar el menú.\n\n${e}`, m, fake);
   }
 };
 
